@@ -11,7 +11,7 @@ if (!rootEl) throw new Error('Root element not found');
 createRoot(rootEl).render(
   <StrictMode>
     <HelmetProvider>
-      <BrowserRouter basename="/sri-jayam-catering-service-webapp">
+      <BrowserRouter>Ï
         <App />
       </BrowserRouter>
     </HelmetProvider>
